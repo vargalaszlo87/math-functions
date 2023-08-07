@@ -6,4 +6,4 @@ int max(int *a, int n) {
 	return temp;
 }
 
-// use it: int largest = max(vector, 18);
+// usage: int largest = max(vector, 18);

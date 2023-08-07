@@ -6,4 +6,4 @@ int min(int *a, int n) {
 	return temp;
 }
 
-// use it: int smallest = min(vector, 18);
+// usage: int smallest = min(vector, 18);
