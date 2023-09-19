@@ -1,7 +1,7 @@
 // transpose of matrix
 // (only quadratic)
 void matrixTranspose(int ***a, int n, int m) {
-	int i, j, **temp;
+	int i = -1, j, **temp;
 	temp = (int**)malloc(sizeof(int*) * n);
 	while (++i < m) 
 		temp[i] = (int*)malloc(sizeof(int) * m);
