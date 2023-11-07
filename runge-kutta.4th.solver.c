@@ -1,9 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
-#define DEBUG
-
 typedef struct RK4Variables {
 	float
 		t0,
