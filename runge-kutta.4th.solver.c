@@ -9,10 +9,6 @@ typedef struct RK4Variables {
 	int step;
 } RK4Variables;
 
-float eq(float t, float y) {
-	return pow(y,2)-y*sin(t)+cos(t);
-}
-
 void rk4(struct RK4Variables *r, float (*f)(float, float)) {
 	int i = -1;
 	r->h = (r->t-r->t0)/r->step;
