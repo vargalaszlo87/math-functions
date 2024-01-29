@@ -1,5 +1,5 @@
 // max value's index of (double) vector
-int maxIndex(double *a, double n) {
+int maxIndex(double *a, int n) {
 	double temp = a[0];
 	int i = -1, j = 0;
 	while (++i < n) {
