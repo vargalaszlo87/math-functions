@@ -2,26 +2,26 @@ typedef struct stack {
 	double *array;
 	int size;
 	int pointer;
-};
+} stack;
 
-struct stack* create(int size) {
-	struct stack* s = (struct stack*)malloc(sizeof(struct stack));
+stack* create(int size) {
+	stack* s = (stack*)malloc(sizeof(stack));
 	s->size = size;
 	s->pointer = -1;
 	s->array = (double*)malloc(s->size * sizeof(double));
 }
 
-void push(struct stack* s, double item) {
+void push(stack* s, double item) {
 	if (s->pointer < s->size-1) 
 		s->array[++s->pointer] = item;
 }
 
-double pop(struct stack* s) {
+double pop(stack* s) {
 	return (double)((s->pointer == -1 ) ? -1 : s->array[s->pointer--]);
 }
 
 /* usage:
-struct stack* s = create(32);	
+stack* s = create(32);	
 push(s,3.14);
 double value = pop(s);
 */
