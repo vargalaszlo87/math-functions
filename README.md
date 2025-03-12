@@ -33,7 +33,7 @@ This Repo is a collection of math-functions which are useful for numerical calcu
 
 ## Contact
 
-Varga Laszlo - https://vargalaszlo.com - mail@vargalaszlo.com.com
+Varga Laszlo - https://vargalaszlo.com - mail@vargalaszlo.com
 
 Project Link: https://github.com/vargalaszlo87/math-functions
 
